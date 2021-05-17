@@ -1,0 +1,9 @@
+<?php include_once 'menu.phtml'; ?>
+<h2>Создание пользователя</h2><br />
+
+<form action="/admin/createUser" method="post">
+    Ввведите email: <input type="text" name="email" placeholder="email"><br />
+    Ввведите name: <input type="text" name="name" placeholder="Ваше имя"><br />
+    Введите пароль: <input type="password" name="password" placeholder="пароль"><br />
+    <input type="submit" value="Создать пользователя"><br />
+</form>

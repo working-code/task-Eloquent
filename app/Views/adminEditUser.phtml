@@ -1,0 +1,9 @@
+<?php include_once 'menu.phtml'; ?>
+<h2>Редактирование пользователя</h2><br />
+
+<form action="/admin/saveUser" method="post">
+    Имя: <input type="text" name="name" value="<?=$this->user['name'];?>"><br />
+    Email: <input type="text" name="email" value="<?=$this->user['email'];?>"><br />
+    <input type="hidden" name="id" value="<?=$this->user['id'];?>">
+    <input type="submit" value="Сохранить">
+</form>

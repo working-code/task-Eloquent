@@ -1,0 +1,11 @@
+{
+  "require": {
+    "illuminate/database" : "8.41.0",
+    "fakerphp/faker" : "1.14.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app/"
+    }
+  }
+}
